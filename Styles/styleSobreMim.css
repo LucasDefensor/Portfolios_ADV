@@ -1,0 +1,45 @@
+#img_sobremim{
+    width: 200px;
+    margin: 10px;
+    border-radius: 25px;
+}
+
+#inf_sobremim {
+    background-color: var(--color-greybg);
+    color: var(--color-white);
+    margin: 10px;
+    padding: 1rem;
+    border-radius: 12px;
+}
+
+#inf_sobremim2 {
+    background-color: var(--color-greybg);
+    color: var(--color-white);
+    margin: 10px;
+    padding: 1rem;
+    border-radius: 12px;
+
+    flex-grow: 1;
+}
+
+#link_redes{
+    margin: 10px;
+    padding: 10px;
+    background-color: var(--color-main);
+    border-radius: 12px;
+
+    &:hover{
+        transition: .3s;
+        transform: scale(1.1);
+        color: var(--color-white);
+    }
+}
+
+#link_redes a{
+    color: var(--color-black);
+    padding: 10px 25%;
+    
+    &:hover{
+        color: var(--color-white);
+    }
+}

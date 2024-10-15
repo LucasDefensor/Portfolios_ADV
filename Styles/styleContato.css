@@ -1,0 +1,65 @@
+#inf_contato {
+    background-color: var(--color-greybg);
+    margin: 10px;
+    padding: 1rem;
+    border-radius: 12px;
+}
+
+#inf_contato2 {
+    background-color: var(--color-greybg);
+    margin: 10px;
+    padding: 1rem;
+    border-radius: 12px;
+
+    flex-grow: 1;
+}
+
+#midias_social {
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+}
+
+#midias_social li {
+    display: flex;
+    flex-direction: column;
+}
+
+#midias_social li a {
+    display: flex;
+    align-items: center;
+    flex-grow: 1;
+
+    margin: 5px;
+}
+
+/* --- link redes sociais --*/
+
+#link_whatsapp {
+    background: #25D366;
+    color: var(--color-black);
+    border-radius: 15px;
+    padding: 7px;
+}
+
+#link_instagram {
+    background: linear-gradient(to right, #fed373 4%, #f15245 30%, #d92e7f 62%, #9b36b7 85%, #515ecf);
+    color: var(--color-black);
+    border-radius: 15px;
+    padding: 7px;
+}
+
+#link_celular {
+    background: var(--color-white);
+    color: var(--color-black);
+    border-radius: 15px;
+    padding: 7px;
+}
+
+#link_whatsapp:hover,
+#link_instagram:hover,
+#link_celular:hover {
+    background: var(--color-main);
+    transform: scale(1.05);
+    transition: 0.5s;
+}
